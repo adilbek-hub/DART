@@ -1,10 +1,13 @@
 import 'package:async_await/async_await.dart' as async_await;
 
-void main() {
+void main() async {
   //1. Салам функциясын чакырды
   salam();
   //4. koshBol функциясын чакырды анын ичинен Kosh Bolду чыгарды.
   koshBol();
+  // await менен String кайтарган getName функциясын окуу
+  final result = await getName();
+  print(result);
 }
 // async: Убакыт ала турган функция
 // await: Бир функция бүткөнгө чейин күт
@@ -22,4 +25,11 @@ void salam() async {
 
 void koshBol() {
   print("Kosh Bol");
+}
+
+// await менен String кайтаруу. Эскертүү getName() функциясы келечекте бир String
+//кайтарганы үчүн main негизги функциясы асинфрондуу болуусу шарт.
+Future<String> getName() async {
+  await Future.delayed(Duration(seconds: 2));
+  return "Adilbek";
 }
