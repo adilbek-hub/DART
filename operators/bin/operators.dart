@@ -100,11 +100,31 @@ void main() {
 void main() {
   print(res1);
   print(res2);
+  print(plus);
+  print(minus);
+  print(koboyt);
+  print(boluu);
+  print(kaldyk);
+  print(butun);
+  a++;
+  b--;
+  print(a);
+  print(b);
 }
 
-var a = null;
-var b = 12;
-var res1 = a ?? b;
+int a = 20;
+int b = 3;
 
-var c = 10;
-var res2 = c > 12 ? "мааниси 10дон жогору" : "10дон аз же барабар маани";
+int plus = a + b;
+int minus = a - b;
+int koboyt = a * b;
+double boluu = a / b;
+int kaldyk = a % b;
+int butun = a ~/ b;
+
+var c = null;
+var d = 12;
+var res1 = c ?? d;
+
+var i = 10;
+var res2 = i > 12 ? "мааниси 10дон жогору" : "10дон аз же барабар маани";
