@@ -128,3 +128,8 @@ var res1 = c ?? d;
 
 var i = 10;
 var res2 = i > 12 ? "мааниси 10дон жогору" : "10дон аз же барабар маани";
+
+int aa = 1;
+double bb = 1.1;
+num cc = 100.55;
+dynamic gg = true;
