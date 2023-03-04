@@ -18,7 +18,7 @@ void main() {
   print(stringJyintyk);
 
   print(returnBool());
-  print(!boolJyintyk);
+  print(boolJyintyk);
 }
 
 oneFunction() {
