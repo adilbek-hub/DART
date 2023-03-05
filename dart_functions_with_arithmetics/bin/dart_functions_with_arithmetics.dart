@@ -19,6 +19,15 @@ void main() {
 
   print(returnBool());
   print(boolJyintyk);
+// параметр алуучу функциялардын чакыруусу
+  sum(10, 10);
+
+  print(sum2(15, 15));
+
+  sum3("Adilbek", 31);
+
+  sum4(50);
+  print(suu);
 }
 
 oneFunction() {
@@ -48,3 +57,26 @@ bool returnBool() {
 }
 
 bool boolJyintyk = returnBool();
+
+// Параметр алуучу функция
+void sum(int num1, int num2) {
+  int summa = num1 + num2;
+  print(summa);
+}
+
+int sum2(int a, int b) {
+  return a + b;
+}
+
+void sum3(String name, int age) {
+  print(name);
+  print(age);
+}
+
+int sum4(int san) {
+  int sum4Jyiyntyk = san * 10;
+  print(sum4Jyiyntyk);
+  return sum4Jyiyntyk;
+}
+
+int suu = sum4(60) + 30;
