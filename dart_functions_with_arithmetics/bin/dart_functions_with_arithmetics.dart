@@ -80,3 +80,8 @@ int sum4(int san) {
 }
 
 int suu = sum4(60) + 30;
+
+dynamic adam(String name, int age) {
+  print(name);
+  print(age);
+}
