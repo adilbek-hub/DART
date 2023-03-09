@@ -1,3 +1,5 @@
+import 'dart_functions.dart';
+
 void main() {
   sum(10, 100);
   showPerson("Adilbek", 30);
@@ -19,12 +21,14 @@ void showPerson(String name, int age) {
   print("Name: $name, Age: $age");
 }
 
-//Функцияны аныктоодо биз параметрлердин түрүн көрсөтпөй калышыбыз мүмкүн. Андан кийин Дарт өзү өткөн баалуулуктардын негизинде алардын түрүн чыгарат:
+//Функцияны аныктоодо биз параметрлердин түрүн көрсөтпөй калышыбыз мүмкүн. 
+//Андан кийин Дарт өзү өткөн баалуулуктардын негизинде алардын түрүн чыгарат:
+
 void showPerson2(name, age) {
   print("Name: $name, Age: $age");
 }
 
-//Кошумча параметрлер
+//Кошумча параметрлер [int age = 25]
 void showPerson3(String name, [int age = 25]) {
   print("Name: $name, Age:$age");
 }
