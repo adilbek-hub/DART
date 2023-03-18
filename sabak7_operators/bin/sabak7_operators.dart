@@ -4,7 +4,7 @@ void main() {
   final number = Random().nextInt(10) + 1;
   print('Random: $number');
 
-  /*
+  
   // +
   print(koshuu(10, 10));
   final dagyKosh = 40 + koshuu(15, 10);
@@ -24,9 +24,9 @@ void main() {
   // %
   print(payiz(25, 2));
   print(a[2]);
-  */
+  
 }
-/*
+
 int koshuu(int a, int b) {
   final result = a + b;
   return result;
@@ -58,6 +58,6 @@ num payiz(num a, num b) {
 }
 
 List a = <String>["a", "b", "c", "d"];
-*/
+
 
 
