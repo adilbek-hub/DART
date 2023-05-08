@@ -10,6 +10,7 @@ class Interest {
 }
 
 void main() {
+  // Interest class/ i object
   Interest i = Interest();
   i.p = 100;
   i.r = 200;

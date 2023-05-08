@@ -2,7 +2,7 @@ import 'package:sabak9_for_loop_with_model_list/model.dart';
 
 final studentter = <Student>[daniar, dinara, hanzada, mirbek, aybek];
 void main() {
-  controlNameEmail('aybek', 'aybekr@mail');
+  controlNameEmail('Danyar', 'daniar@mail');
 }
 
 void controlNameEmail(String name, String email) {
