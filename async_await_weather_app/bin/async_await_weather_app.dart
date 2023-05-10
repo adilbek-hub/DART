@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-void main() async {
+void main() {
   salamBer();
   koshtosh();
 }
