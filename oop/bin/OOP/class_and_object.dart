@@ -1,5 +1,5 @@
 class Interest {
-  //properties
+  //properties => касиеттер
   double? p;
   double? r;
   double? t;
