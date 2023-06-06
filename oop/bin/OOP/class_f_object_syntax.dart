@@ -1,0 +1,3 @@
+
+
+// ClassName objectName = ClassName();
