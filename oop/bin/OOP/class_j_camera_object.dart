@@ -1,5 +1,3 @@
-import 'class_i_car_object.dart';
-
 class Camera {
   String? name;
   String? color;
