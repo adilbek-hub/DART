@@ -13,6 +13,10 @@ class Bicycle {
     currentSpeed = newValue;
   }
 
+  void forSize(int sizes) {
+    size = sizes;
+  }
+
   //ыкма
   void display() {
     print("Color: $color");
@@ -25,8 +29,9 @@ void main() {
   // Бул жерде велосипед Велосипед классынын объектиси.
   Bicycle bicycle = Bicycle();
   bicycle.color = 'Red';
-  bicycle.size = 26;
+  bicycle.size = 0;
   bicycle.currentSpeed = 0;
   bicycle.changeGear(5);
+  bicycle.forSize(40);
   bicycle.display();
 }
