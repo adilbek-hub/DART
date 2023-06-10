@@ -13,6 +13,11 @@ class HHuman {
   int? age;
 }
 
+class HHuman2 {
+  HHuman2({this.names, this.ages});
+  String? names;
+  int? ages;
+}
 /////////////////////////////////////////////////////////
 // extention&implements
 //Мы создаем абстрактный класс Human. У него есть метод названием Work и свойствы.
@@ -25,7 +30,7 @@ class HHuman {
 // Башкача айтканда, биз мурункусун колдоно алабыз,аларды өзгөртүп, кеңейте алабыз.
 //Ал эми "Ишке ашырууда =>Implementation" биз касиеттерди кайра аныктоо, ыкмаларды кайра
 //аныктоо керек.
-class Developer implements Human {
+class Developer implements Human, HHuman2 {
   Developer(this.age, this.name);
   @override
   int? age;
@@ -37,6 +42,12 @@ class Developer implements Human {
   void work() {
     print('Write code');
   }
+
+  @override
+  int? ages;
+
+  @override
+  String? names;
 }
 
 class Driver implements Human {
