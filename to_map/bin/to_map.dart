@@ -30,12 +30,15 @@ class Book {
 
 /*Вот пример того, как вы можете использовать метод toMap(): */
 void main() {
+    // Creating a Book object
   Book book = Book(
     title: 'Sabak 1',
     description: 'ToMap tuuraluu sabak',
     isComplated: false,
     author: 'Adilbek',
   );
+   // Converting the Book object to a map
+   // Преобразование объекта Book в карту
   Map<String, dynamic> bookMap = book.toMap();
   print(bookMap);
 }
