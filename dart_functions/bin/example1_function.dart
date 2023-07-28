@@ -1,7 +1,8 @@
 void main() {
-  int num = 11;
   isEvent(num);
 }
+
+int num = 11;
 
 void isEvent(int num) {
   if (num % 2 == 0) {
