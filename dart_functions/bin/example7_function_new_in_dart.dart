@@ -1,6 +1,6 @@
 // Аркага эки ретурн тайп
 void main() {
-  var value = condidateWorker('Alex', 20);
+  var value = condidateWorker('Alex', 17);
   print(value);
 }
 
