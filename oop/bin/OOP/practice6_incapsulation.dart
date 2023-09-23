@@ -30,8 +30,8 @@ void main() {
   var person = Person('Adilbek', 31);
 
   // Используем геттеры
-  print('Name is: ${person._name}');
-  print('Age is: ${person._age}');
+  print('Name is kyrgyz boy: ${person._name}');
+  print('Age is kyrgyz boy: ${person._age}');
 
   // Используем сеттеры для изменения данных
   print(person._name = 'John');
