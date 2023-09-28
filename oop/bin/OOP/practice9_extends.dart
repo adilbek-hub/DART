@@ -40,5 +40,4 @@ void main() {
 
   bycicle.startEngine();
   bycicle.ringBell();
-  print(car.brand);
 }
