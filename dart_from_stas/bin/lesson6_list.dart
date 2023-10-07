@@ -19,8 +19,23 @@ void main() {
   //
   final firstResult = family.first;
   print(firstResult);
+  //Длика списка
+  print('Длина списка семей состовляет: ${family.length}');
   //
   final indexResult = family[1];
   print(indexResult);
 //Для замены значения
+  family[0] = 'Almaz';
+  print(family);
+  //Добавить новые члены на семью
+  family.addAll(['Girl', 'Son']);
+  print(family);
+  //contains(значение) есть ли в списке конкретное значение? если есть true
+  final contain = family.contains('Bektur');
+  print(contain);
+// indexOf() скажет по какому индексу находят значения
+  print(family.indexOf('Bektur'));
+  //Очискта все значения
+  family.clear();
+  print(family);
 }
