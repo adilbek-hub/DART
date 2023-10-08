@@ -36,8 +36,16 @@ void main() {
 // indexOf() скажет по какому индексу находят значения
   print(family.indexOf('Bektur'));
   //where() метод для поиска в списке по фильтру
+  //Возникает вопрос. А почему до этого показовались в квадратных скопках, а в where методе в круглых?
+  // ответ прост. Метод where не возвращает список, индех а итеребл. Итеребл это интерфейс списков в дарте,
+  //то есть это основной класс от которого наследуются другие списки такие как сет и лист нашем случии.
+  // чтобы видеть результат where() метода на нужно превести toList.
+  //
   final foundFamily = family.where((element) => true);
   print(foundFamily);
+  final foundChlenFromFamily =
+      family.where((element) => element == 'Bektur').toList();
+  print(foundChlenFromFamily);
   //Очискта все значения
   family.clear();
   print(family);
