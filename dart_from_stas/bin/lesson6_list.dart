@@ -35,6 +35,9 @@ void main() {
   print(contain);
 // indexOf() скажет по какому индексу находят значения
   print(family.indexOf('Bektur'));
+  //where() метод для поиска в списке по фильтру
+  final foundFamily = family.where((element) => true);
+  print(foundFamily);
   //Очискта все значения
   family.clear();
   print(family);
