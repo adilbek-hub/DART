@@ -1,4 +1,4 @@
-enum Pet { dog, cat }
+enum Pet { dog, cat ,}
 
 void main() {
   final vasiaPet = Pet.cat;
