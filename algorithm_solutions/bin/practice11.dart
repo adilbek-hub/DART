@@ -3,5 +3,5 @@ void main() {
     return (fst + n ~/ 2) % n;
   }
 
-  print(circleOfNumbers(n: 5, fst: 5));
+  print(circleOfNumbers(n: 5, fst: 2));
 }
